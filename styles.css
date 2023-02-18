@@ -1,0 +1,105 @@
+header {
+  background-color: rgb(166, 216, 236);
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first {
+  font-weight: 900;
+  font-size: 32px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+.second {
+  font-size: 20px;
+  color: rgb(78, 78, 78);
+  margin-left: 15px;
+  margin-top: 0px;
+}
+.btn-blog {
+  height: 30px;
+  width: 70px;
+  background-color: rgb(75, 75, 195);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.cards-and-area {
+  display: flex;
+  gap: 25px;
+}
+.first-3-cards {
+  display: flex;
+  gap: 25px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+.last-3-cards {
+  display: flex;
+  gap: 25px;
+  margin-left: 15px;
+}
+.card {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+}
+.area-card {
+  height: 280px;
+  width: 250px;
+  border: 1px solid black;
+}
+img {
+  display: block;
+  height: 120px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.shape {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.formula {
+  margin-top: 0px;
+  text-align: center;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-calculate {
+  display: block;
+  height: 40px;
+  width: 200px;
+  background-color: rgb(75, 75, 195);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.area-card-title {
+  text-align: center;
+  font-weight: bold;
+}
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
